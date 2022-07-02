@@ -1,0 +1,23 @@
+{
+  "name": "microservice-common",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "del ./build/*",
+    "build": "npm run clean && tsc",
+    "pub": "npm version patch && npm run build && npm publish"
+  },
+  "author": "alirezataji6",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^8.4.7",
+    "@nestjs/swagger": "^5.2.1",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.13.2",
+    "typeorm": "^0.3.7"
+  },
+  "devDependencies": {
+    "del-cli": "^4.0.1"
+  }
+}
