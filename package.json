@@ -1,5 +1,5 @@
 {
-  "name": "microservice-common",
+  "name": "microservice-common256",
   "version": "1.0.1",
   "description": "",
   "main": "./build/index.js",
